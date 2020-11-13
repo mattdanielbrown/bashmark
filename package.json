@@ -1,0 +1,39 @@
+{
+	"name": "bashmark",
+	"version": "0.0.0",
+	"description": "A bookmarking system (sort of) for the commandline. Save locations (paths) and easily get back to them later.",
+	"license": "MIT",
+	"repository": "mattdanielbrown/bashmark",
+	"author": {
+		"name": "Matt Daniel Brown",
+		"email": "developer@mattdanielbrown.com",
+		"url": "http://mattbrown.codes"
+	},
+	"bin": {
+		"bashmark": "cli.js"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"bookmark",
+		"bookmarking",
+		"bookmarks"
+	],
+	"dependencies": {
+		"meow": "^8.0.0"
+	},
+	"devDependencies": {
+		"ava": "^3.13.0",
+		"xo": "^0.34.2"
+	}
+}
