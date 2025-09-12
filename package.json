@@ -30,7 +30,7 @@
 		"bookmarks"
 	],
 	"dependencies": {
-		"meow": "^8.0.0"
+		"meow": "^13.2.0"
 	},
 	"devDependencies": {
 		"ava": "^3.13.0",
